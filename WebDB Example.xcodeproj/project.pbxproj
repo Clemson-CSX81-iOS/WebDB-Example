@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3A02CE3A6347DCA7F0B91E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DAA0B3EA9B74AAAAB638D78 /* libPods.a */; };
+		F70ADF0A161DB14B0018C654 /* WDBAddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70ADF09161DB14B0018C654 /* WDBAddBookViewController.m */; };
+		F70ADF0E161DB4A10018C654 /* WDBSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F70ADF0D161DB4A10018C654 /* WDBSelectionViewController.m */; };
+		F722A2AF161D3D0100F0D72D /* WDBBookDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F722A2AE161D3D0100F0D72D /* WDBBookDetailViewController.m */; };
+		F730309A161D18F900B623A3 /* WDBPublisherListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7303099161D18F900B623A3 /* WDBPublisherListViewController.m */; };
+		F730309D161D191100B623A3 /* WDBAuthorListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F730309C161D191100B623A3 /* WDBAuthorListViewController.m */; };
+		F73030A0161D1A7900B623A3 /* WDBAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F730309F161D1A7900B623A3 /* WDBAPIClient.m */; };
+		F74D6A26161D2D0E005A9067 /* WDBAddPubOrAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D6A25161D2D0E005A9067 /* WDBAddPubOrAuthViewController.m */; };
+		F74D6A38161D3389005A9067 /* WDBBookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F74D6A37161D3389005A9067 /* WDBBookListViewController.m */; };
+		F77CFD89161CE8A2003E9DA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77CFD88161CE8A2003E9DA0 /* UIKit.framework */; };
+		F77CFD8B161CE8A2003E9DA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77CFD8A161CE8A2003E9DA0 /* Foundation.framework */; };
+		F77CFD8D161CE8A2003E9DA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F77CFD8C161CE8A2003E9DA0 /* CoreGraphics.framework */; };
+		F77CFD93161CE8A2003E9DA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F77CFD91161CE8A2003E9DA0 /* InfoPlist.strings */; };
+		F77CFD95161CE8A2003E9DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CFD94161CE8A2003E9DA0 /* main.m */; };
+		F77CFD99161CE8A2003E9DA0 /* WDBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F77CFD98161CE8A2003E9DA0 /* WDBAppDelegate.m */; };
+		F77CFD9B161CE8A2003E9DA0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F77CFD9A161CE8A2003E9DA0 /* Default.png */; };
+		F77CFD9D161CE8A2003E9DA0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F77CFD9C161CE8A2003E9DA0 /* Default@2x.png */; };
+		F77CFD9F161CE8A2003E9DA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F77CFD9E161CE8A2003E9DA0 /* Default-568h@2x.png */; };
+		F77CFDA2161CE8A2003E9DA0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F77CFDA0161CE8A2003E9DA0 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DAA0B3EA9B74AAAAB638D78 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45CFF523D80945C291CA3064 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F70ADF08161DB14B0018C654 /* WDBAddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBAddBookViewController.h; sourceTree = "<group>"; };
+		F70ADF09161DB14B0018C654 /* WDBAddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBAddBookViewController.m; sourceTree = "<group>"; };
+		F70ADF0C161DB4A10018C654 /* WDBSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBSelectionViewController.h; sourceTree = "<group>"; };
+		F70ADF0D161DB4A10018C654 /* WDBSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBSelectionViewController.m; sourceTree = "<group>"; };
+		F722A2AD161D3D0100F0D72D /* WDBBookDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBBookDetailViewController.h; sourceTree = "<group>"; };
+		F722A2AE161D3D0100F0D72D /* WDBBookDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBBookDetailViewController.m; sourceTree = "<group>"; };
+		F7303098161D18F900B623A3 /* WDBPublisherListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBPublisherListViewController.h; sourceTree = "<group>"; };
+		F7303099161D18F900B623A3 /* WDBPublisherListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBPublisherListViewController.m; sourceTree = "<group>"; };
+		F730309B161D191100B623A3 /* WDBAuthorListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBAuthorListViewController.h; sourceTree = "<group>"; };
+		F730309C161D191100B623A3 /* WDBAuthorListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBAuthorListViewController.m; sourceTree = "<group>"; };
+		F730309E161D1A7900B623A3 /* WDBAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBAPIClient.h; sourceTree = "<group>"; };
+		F730309F161D1A7900B623A3 /* WDBAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBAPIClient.m; sourceTree = "<group>"; };
+		F74D6A24161D2D0E005A9067 /* WDBAddPubOrAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBAddPubOrAuthViewController.h; sourceTree = "<group>"; };
+		F74D6A25161D2D0E005A9067 /* WDBAddPubOrAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBAddPubOrAuthViewController.m; sourceTree = "<group>"; };
+		F74D6A36161D3389005A9067 /* WDBBookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDBBookListViewController.h; sourceTree = "<group>"; };
+		F74D6A37161D3389005A9067 /* WDBBookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDBBookListViewController.m; sourceTree = "<group>"; };
+		F77CFD84161CE8A2003E9DA0 /* WebDB Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebDB Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77CFD88161CE8A2003E9DA0 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F77CFD8A161CE8A2003E9DA0 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F77CFD8C161CE8A2003E9DA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F77CFD90161CE8A2003E9DA0 /* WebDB Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebDB Example-Info.plist"; sourceTree = "<group>"; };
+		F77CFD92161CE8A2003E9DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F77CFD94161CE8A2003E9DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F77CFD96161CE8A2003E9DA0 /* WebDB Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebDB Example-Prefix.pch"; sourceTree = "<group>"; };
+		F77CFD97161CE8A2003E9DA0 /* WDBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WDBAppDelegate.h; sourceTree = "<group>"; };
+		F77CFD98161CE8A2003E9DA0 /* WDBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDBAppDelegate.m; sourceTree = "<group>"; };
+		F77CFD9A161CE8A2003E9DA0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F77CFD9C161CE8A2003E9DA0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F77CFD9E161CE8A2003E9DA0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F77CFDA1161CE8A2003E9DA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77CFD81161CE8A1003E9DA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CFD89161CE8A2003E9DA0 /* UIKit.framework in Frameworks */,
+				F77CFD8B161CE8A2003E9DA0 /* Foundation.framework in Frameworks */,
+				F77CFD8D161CE8A2003E9DA0 /* CoreGraphics.framework in Frameworks */,
+				0C3A02CE3A6347DCA7F0B91E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F74D6A39161D36D2005A9067 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFDA0161CE8A2003E9DA0 /* MainStoryboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F74D6A3A161D36DC005A9067 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFD97161CE8A2003E9DA0 /* WDBAppDelegate.h */,
+				F77CFD98161CE8A2003E9DA0 /* WDBAppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		F74D6A3B161D36F1005A9067 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7303098161D18F900B623A3 /* WDBPublisherListViewController.h */,
+				F7303099161D18F900B623A3 /* WDBPublisherListViewController.m */,
+				F730309B161D191100B623A3 /* WDBAuthorListViewController.h */,
+				F730309C161D191100B623A3 /* WDBAuthorListViewController.m */,
+				F74D6A36161D3389005A9067 /* WDBBookListViewController.h */,
+				F74D6A37161D3389005A9067 /* WDBBookListViewController.m */,
+				F74D6A24161D2D0E005A9067 /* WDBAddPubOrAuthViewController.h */,
+				F74D6A25161D2D0E005A9067 /* WDBAddPubOrAuthViewController.m */,
+				F722A2AD161D3D0100F0D72D /* WDBBookDetailViewController.h */,
+				F722A2AE161D3D0100F0D72D /* WDBBookDetailViewController.m */,
+				F70ADF08161DB14B0018C654 /* WDBAddBookViewController.h */,
+				F70ADF09161DB14B0018C654 /* WDBAddBookViewController.m */,
+				F70ADF0C161DB4A10018C654 /* WDBSelectionViewController.h */,
+				F70ADF0D161DB4A10018C654 /* WDBSelectionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F74D6A3C161D36FC005A9067 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F730309E161D1A7900B623A3 /* WDBAPIClient.h */,
+				F730309F161D1A7900B623A3 /* WDBAPIClient.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F77CFD79161CE8A1003E9DA0 = {
+			isa = PBXGroup;
+			children = (
+				F77CFD8E161CE8A2003E9DA0 /* WebDB Example */,
+				F77CFD87161CE8A2003E9DA0 /* Frameworks */,
+				F77CFD85161CE8A2003E9DA0 /* Products */,
+				45CFF523D80945C291CA3064 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		F77CFD85161CE8A2003E9DA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFD84161CE8A2003E9DA0 /* WebDB Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77CFD87161CE8A2003E9DA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFD88161CE8A2003E9DA0 /* UIKit.framework */,
+				F77CFD8A161CE8A2003E9DA0 /* Foundation.framework */,
+				F77CFD8C161CE8A2003E9DA0 /* CoreGraphics.framework */,
+				2DAA0B3EA9B74AAAAB638D78 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F77CFD8E161CE8A2003E9DA0 /* WebDB Example */ = {
+			isa = PBXGroup;
+			children = (
+				F74D6A3A161D36DC005A9067 /* Application */,
+				F74D6A3B161D36F1005A9067 /* Controllers */,
+				F74D6A39161D36D2005A9067 /* Views */,
+				F74D6A3C161D36FC005A9067 /* Models */,
+				F77CFD8F161CE8A2003E9DA0 /* Supporting Files */,
+			);
+			path = "WebDB Example";
+			sourceTree = "<group>";
+		};
+		F77CFD8F161CE8A2003E9DA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77CFD90161CE8A2003E9DA0 /* WebDB Example-Info.plist */,
+				F77CFD91161CE8A2003E9DA0 /* InfoPlist.strings */,
+				F77CFD94161CE8A2003E9DA0 /* main.m */,
+				F77CFD96161CE8A2003E9DA0 /* WebDB Example-Prefix.pch */,
+				F77CFD9A161CE8A2003E9DA0 /* Default.png */,
+				F77CFD9C161CE8A2003E9DA0 /* Default@2x.png */,
+				F77CFD9E161CE8A2003E9DA0 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77CFD83161CE8A1003E9DA0 /* WebDB Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77CFDA8161CE8A2003E9DA0 /* Build configuration list for PBXNativeTarget "WebDB Example" */;
+			buildPhases = (
+				F77CFD80161CE8A1003E9DA0 /* Sources */,
+				F77CFD81161CE8A1003E9DA0 /* Frameworks */,
+				F77CFD82161CE8A1003E9DA0 /* Resources */,
+				2D9C750AC0F442DFA0664E71 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebDB Example";
+			productName = "WebDB Example";
+			productReference = F77CFD84161CE8A2003E9DA0 /* WebDB Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77CFD7B161CE8A1003E9DA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WDB;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "DJ Edmonson";
+			};
+			buildConfigurationList = F77CFD7E161CE8A1003E9DA0 /* Build configuration list for PBXProject "WebDB Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F77CFD79161CE8A1003E9DA0;
+			productRefGroup = F77CFD85161CE8A2003E9DA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77CFD83161CE8A1003E9DA0 /* WebDB Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77CFD82161CE8A1003E9DA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CFD93161CE8A2003E9DA0 /* InfoPlist.strings in Resources */,
+				F77CFD9B161CE8A2003E9DA0 /* Default.png in Resources */,
+				F77CFD9D161CE8A2003E9DA0 /* Default@2x.png in Resources */,
+				F77CFD9F161CE8A2003E9DA0 /* Default-568h@2x.png in Resources */,
+				F77CFDA2161CE8A2003E9DA0 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D9C750AC0F442DFA0664E71 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77CFD80161CE8A1003E9DA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77CFD95161CE8A2003E9DA0 /* main.m in Sources */,
+				F77CFD99161CE8A2003E9DA0 /* WDBAppDelegate.m in Sources */,
+				F730309A161D18F900B623A3 /* WDBPublisherListViewController.m in Sources */,
+				F730309D161D191100B623A3 /* WDBAuthorListViewController.m in Sources */,
+				F73030A0161D1A7900B623A3 /* WDBAPIClient.m in Sources */,
+				F74D6A26161D2D0E005A9067 /* WDBAddPubOrAuthViewController.m in Sources */,
+				F74D6A38161D3389005A9067 /* WDBBookListViewController.m in Sources */,
+				F722A2AF161D3D0100F0D72D /* WDBBookDetailViewController.m in Sources */,
+				F70ADF0A161DB14B0018C654 /* WDBAddBookViewController.m in Sources */,
+				F70ADF0E161DB4A10018C654 /* WDBSelectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F77CFD91161CE8A2003E9DA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77CFD92161CE8A2003E9DA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F77CFDA0161CE8A2003E9DA0 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F77CFDA1161CE8A2003E9DA0 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F77CFDA6161CE8A2003E9DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F77CFDA7161CE8A2003E9DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77CFDA9161CE8A2003E9DA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CFF523D80945C291CA3064 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebDB Example/WebDB Example-Prefix.pch";
+				INFOPLIST_FILE = "WebDB Example/WebDB Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F77CFDAA161CE8A2003E9DA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CFF523D80945C291CA3064 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebDB Example/WebDB Example-Prefix.pch";
+				INFOPLIST_FILE = "WebDB Example/WebDB Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77CFD7E161CE8A1003E9DA0 /* Build configuration list for PBXProject "WebDB Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77CFDA6161CE8A2003E9DA0 /* Debug */,
+				F77CFDA7161CE8A2003E9DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77CFDA8161CE8A2003E9DA0 /* Build configuration list for PBXNativeTarget "WebDB Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77CFDA9161CE8A2003E9DA0 /* Debug */,
+				F77CFDAA161CE8A2003E9DA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77CFD7B161CE8A1003E9DA0 /* Project object */;
+}
